@@ -195,7 +195,10 @@ impl Config {
 }
 
 fn env_or(key: &str, default: &str) -> String {
-    env::var(key).unwrap_or_else(|_| default.to_string())
+    match env::var(key) {
+        Ok(val) if !val.is_empty() => val,
+        _ => default.to_string(),
+    }
 }
 
 fn split_api_keys(value: &str) -> Vec<String> {
