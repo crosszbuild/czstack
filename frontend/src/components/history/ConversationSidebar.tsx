@@ -260,7 +260,7 @@ export function ConversationSidebar({
   const workspaceLinks = [
     { to: '/', label: '智能助手', icon: Sparkles, active: location.pathname === '/' },
     { to: '/files', label: '我的文件', icon: Folder, active: location.pathname.startsWith('/files') },
-    { to: 'https://github.com/fuzhengwei/WaLiOffice', label: '开源项目', icon: Github, active: false, external: true },
+    { to: 'https://github.com/crosszbuild/czstack', label: '开源项目', icon: Github, active: false, external: true },
   ]
 
   const toggleProject = (id: string) => {

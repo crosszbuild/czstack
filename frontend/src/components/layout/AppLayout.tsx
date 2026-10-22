@@ -9,7 +9,7 @@ const LOGO_URL = '/logo.png'
 const NAV_ITEMS = [
   { to: '/', label: '智能助手', icon: Sparkles, end: true },
   { to: '/files', label: '我的文件', icon: Files },
-  { to: 'https://github.com/fuzhengwei/WaLiOffice', label: '开源项目', icon: Github, external: true },
+  { to: 'https://github.com/crosszbuild/czstack', label: '开源项目', icon: Github, external: true },
 ]
 
 export function AppLayout() {

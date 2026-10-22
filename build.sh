@@ -9,7 +9,7 @@ set -e
 
 # 镜像配置
 ALIYUN_REGISTRY="registry.cn-hangzhou.aliyuncs.com"
-NAMESPACE="fuzhengwei"
+NAMESPACE="crosszbuild"
 IMAGE_NAME="walioffice"
 IMAGE_TAG="1.0"
 FULL_IMAGE="${ALIYUN_REGISTRY}/${NAMESPACE}/${IMAGE_NAME}:${IMAGE_TAG}"

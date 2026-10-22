@@ -7,12 +7,12 @@
 ```bash
 # 1. 启动 Docker Desktop
 # 2. 进入项目目录
-cd /Users/fuzhengwei/coding/gitcode/KnowledgePlanet/WaLiOffice/WaLiOffice
+cd /path/to/WaLiOffice
 
 # 3. 确认 .local-config 已配置阿里云账号
 cat .local-config
 # 应包含:
-# ALIYUN_USERNAME="小傅哥"
+# ALIYUN_USERNAME="你的阿里云账号"
 # ALIYUN_PASSWORD="你的密码"
 
 # 4. 构建并推送
@@ -21,7 +21,7 @@ cat .local-config
 
 构建完成后镜像地址：
 ```
-registry.cn-hangzhou.aliyuncs.com/fuzhengwei/walioffice:1.0
+registry.cn-hangzhou.aliyuncs.com/crosszbuild/walioffice:1.0
 ```
 
 ### 第二步：云服务器部署

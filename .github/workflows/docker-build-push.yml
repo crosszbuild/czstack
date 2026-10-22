@@ -8,9 +8,9 @@ on:
   workflow_dispatch:
 
 env:
-  DOCKERHUB_NAMESPACE: fuzhengwei
+  DOCKERHUB_NAMESPACE: crosszbuild
   ALIYUN_REGISTRY: registry.cn-hangzhou.aliyuncs.com
-  ALIYUN_NAMESPACE: fuzhengwei
+  ALIYUN_NAMESPACE: crosszbuild
   IMAGE_NAME: walioffice
 
 jobs:
